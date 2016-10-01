@@ -1,5 +1,6 @@
 package com.example.mavin.certamen2;
 
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,11 +21,13 @@ public class UIAdapter extends RecyclerView.Adapter<UIAdapter.ViewHolder> {
     private List<github> mDataset;
 
 
+
+
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView mName;
         public TextView mDescription;
         public TextView mUpdated;
-        
+
 
         public ViewHolder(View v) {
             super(v);
@@ -36,7 +39,6 @@ public class UIAdapter extends RecyclerView.Adapter<UIAdapter.ViewHolder> {
 
         @Override
         public void onClick(View v) {
-
 
         }
     }
