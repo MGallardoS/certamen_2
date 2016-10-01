@@ -18,12 +18,13 @@ import java.util.List;
 
 public class UIAdapter extends RecyclerView.Adapter<UIAdapter.ViewHolder> {
     private List<github> mDataset;
-    
+
 
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView mName;
         public TextView mDescription;
         public TextView mUpdated;
+        
 
         public ViewHolder(View v) {
             super(v);
