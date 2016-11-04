@@ -1,4 +1,4 @@
-package com.example.mavin.certamen2;
+package com.example.mavin.certamen2.model;
 
 /**
  * Created by mavin on 30/9/2016.

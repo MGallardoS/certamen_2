@@ -1,15 +1,13 @@
 package com.example.mavin.certamen2;
 
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import org.json.JSONArray;
-import org.json.JSONException;
+import com.example.mavin.certamen2.model.github;
+import com.example.mavin.certamen2.views.AdapterUI;
 
 import java.util.List;
 
@@ -17,7 +15,7 @@ import java.util.List;
  * Created by mavin on 30/9/2016.
  */
 
-public class UIAdapter extends RecyclerView.Adapter<UIAdapter.ViewHolder> {
+public class UIAdapter extends RecyclerView.Adapter<UIAdapter.ViewHolder> implements AdapterUI {
     private List<github> mDataset;
 
 
